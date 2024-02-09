@@ -10,4 +10,3 @@ echo "\n[START POSTGRES]:"
 sudo /etc/init.d/postgresql start
 
 npm install 
-npm run dev 
