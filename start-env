@@ -1,0 +1,13 @@
+#!/bin/bash
+
+echo "\n[PSQL]:"
+psql --version   
+
+echo "\n[NODE]:"
+node -v  
+
+echo "\n[START POSTGRES]:"
+sudo /etc/init.d/postgresql start
+
+npm install 
+npm run dev 
